@@ -54,4 +54,7 @@
             </table>
         </div>
     </div>
+    @if (count($contacts))
+        <button wire:click="handle" class="btn btn-success ml-4 mb-4">Enviar</button>
+    @endif
 </div>
